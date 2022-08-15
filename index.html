@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="UTF-8">
+        <title>Altanki</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Strona o altankach</h1>
+        <div id="main">
+            <div id="title">
+                <h1>Robkalwik - budowa altanek</h1>
+                <h2>
+                    Rozpoczęliśmy działalność w 2017 roku.<br/>
+                    Nasza specjalność to altanki, tarasy, itp.<br/>
+                    Działamy na terenie powiatu radomskiego.<br/>
+                    Zapraszamy do współpracy.
+                </h2>
+            </div>
+            <div id="photos">
+                    <img src="1.jpg" onclick="change()" id="photo">
+            </div>
+            <div id="contact">
+                    <div id="localisation">
+                        <img src="lokalizacja.png"> <span>Jeziorno 12</span>
+                    </div>
+                    <div id="page">
+                        <img src="strona.png"> <span><a href="https://www.oferteo.pl/robkalwik/firma/4256323" target="_blank">www.oferteo.pl/robkalwik</a></span>
+                    </div>
+                    <div id="phone">
+                        <img src="tel.png"> <span>Telefon: 605 894 861</span>
+                    </div>
+                    <div id="mail">
+                        <img src="mail.png"> <span><form action="mailto:robert@wp.pl"><input type="submit" value="robert@wp.pl"></form></span>
+                    </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
